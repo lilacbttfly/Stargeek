@@ -254,6 +254,9 @@ main > .doidinha {
     font-size: xx-large;
     margin-bottom: 100px;
 }
+.sesisenai1 > a > .ftoperfil{
+    height: 75px;
+}
 .sesisenai > a > .ftoperfil{
     height: 75px;
 }
@@ -337,8 +340,11 @@ main > .doidinha {
     font-family: "coolvetica.otf";
     font-size: xx-large;
 }
-.sesisenai1 > a > img {
+.sesisenai1 > a > .logo {
     height: 100px;
+}
+.sesisenai1 {
+    align-items: center;
 }
 .tudao {
     display: flex;
@@ -375,6 +381,7 @@ main > .doidinha {
     text-shadow: 0px 4px 16px #FF00A8;
     font-family: "coolvetica.otf";
     font-size: larger;
+    padding-right: 50px;
 }
 .gif {
     display: flex;
@@ -392,34 +399,36 @@ main > .doidinha {
     margin-right: 75px;
 }
 .divatores {
-    margin-right: 80px;
+    margin-right: 50px;
     color: #FFf;
     text-shadow: 0px 4px 16px #fff;
+    font-family: "coolvetica.otf";
     text-align: center;
 }
 .actors{
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 .produtosnames > p {
     margin-right: 80px;
 }
 .actorsnames {
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
     color: #FFf;
     text-shadow: 0px 4px 16px #FFf;
+    font-family: "coolvetica.otf";
     text-align: center;
 }
 .produtosnames {
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
     color: #9D7BFF;
     text-shadow: 0px 4px 16px #4200FF;
     text-align: center;
 }
 .produtos {
-    margin-left: 100px;
+    margin-left: 50px;
     display: flex;
     margin-top: 20px;
 }
@@ -436,10 +445,547 @@ main > .doidinha {
     align-items: center;
     text-align: center;
     margin-right: 80px;
+    font-family: "coolvetica.otf";
 }
 .mihpdt > img {
     height: 145px;
 }
+.titalos{
+    margin-top: 50px;
+    margin-left: 100px;
+    color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    font-family: "skirmisher.ttf";
+    font-size: xx-large;
+}
+.felmes{
+    display: flex;
+    overflow: scroll;
+    margin-top: 50px;
+}
+.felmes::-webkit-scrollbar{
+    display: none;
+}
+.felmes > img {
+    margin-left: 50px;
+    border-radius: 9px;
+}
+.eeao:hover{
+    content: url(/Stargeek/img/eeaogif.gif);
+    height: 296px;
+    border-radius: 9px;
+}
+.elvis:hover{
+    content: url(/Stargeek/img/elvisgif.gif);
+    height: 296px;
+    width: 517px;
+    border-radius: 9px;
+}
+.fabelmans:hover{
+    content: url(/Stargeek/img/fabelmansgif.webp);
+    height: 296px;
+    width: 517px;
+    border-radius: 9px;
+}
+.womentalking:hover{
+    content: url(/Stargeek/img/women\ talkinggif.webp);
+    height: 296px;
+    width: 517px;
+    border-radius: 9px;
+}
+
+.topgun:hover{
+        content: url(/Stargeek/img/top\ gungif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.banshees:hover{
+        content: url(/Stargeek/img/bansheesgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+    .triangle:hover{
+        content: url(/Stargeek/img/triangle\ of\ sadnessgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.tar:hover{
+        content: url(/Stargeek/img/tárgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.allquiet:hover{
+        content: url(/Stargeek/img/all\ quietgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.avatar:hover{
+        content: url(/Stargeek/img/avatargif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.nope:hover{
+        content: url(/Stargeek/img/mopegif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.dune:hover{
+        content: url(/Stargeek/img/dunegif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.tenet:hover{
+        content: url(/Stargeek/img/tenetgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.zathura:hover{
+        content: url(/Stargeek/img/zathuragif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.interstellar:hover{
+        content: url(/Stargeek/img/INTERSTELLARgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.tomorrowland:hover{
+        content: url(/Stargeek/img/tomorrowlandgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.blackisking:hover{
+        content: url(/Stargeek/img/black\ is\ kinggif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.reptour:hover{
+        content: url(/Stargeek/img/rep\ tourgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.inside:hover{
+        content: url(/Stargeek/img/insidegif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.ticktickboom:hover{
+        content: url(/Stargeek/img/ticktick\ boomgif.jpg);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.whiplash:hover{
+        content: url(/Stargeek/img/whiplashgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.brittneyvsspears:hover{
+        content: url(/Stargeek/img/brittney\ vs\ spearsgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.hoje:hover{
+        content: url(/Stargeek/img/hoje\ eu\ quero\ voltar\ sozinhogif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.dearevanhansen:hover{
+        content: url(/Stargeek/img/dear\ evan\ hansengif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.lovesimon:hover{
+        content: url(/Stargeek/img/love\,\ simongif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.everything:hover{
+        content: url(/Stargeek/img/everything\ everythinggif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.spectacularnow:hover{
+        content: url(/Stargeek/img/spectacular\ nowgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.juno:hover{
+        content: url(/Stargeek/img/junogif.webp);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.dyinggirl:hover{
+        content: url(/Stargeek/img/me\,\ earl\ and\ the\ dying\ girlgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.edgeofseventeen:hover{
+        content: url(/Stargeek/img/The\ Edge\ of\ Seventeengif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.cinderella:hover{
+        content: url(/Stargeek/img/a\ cinderella\ story.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.theperks:hover{
+        content: url(/Stargeek/img/the\ perks\ of\ being\ a\ wallflowergif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.hereditary:hover{
+        content: url(/Stargeek/img/hereditarygif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.midsommar:hover{
+        content: url(/Stargeek/img/midsommar.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.scarystories:hover{
+        content: url(/Stargeek/img/scary\ stories.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.themenu:hover{
+        content: url(/Stargeek/img/the\ menugif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.byebyeman:hover{
+        content: url(/Stargeek/img/the\ bye\ bye\ mangif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.clockwork:hover{
+        content: url(/Stargeek/img/clockwork\ orangegif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.x:hover{
+        content: url(/Stargeek/img/xgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.carrie:hover{
+        content: url(/Stargeek/img/carriegif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.theshining:hover{
+        content: url(/Stargeek/img/the\ shininggif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.grownups:hover{
+        content: url(/Stargeek/img/grown\ upsgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.scottpilgrim:hover{
+        content: url(/Stargeek/img/scott\ pilgrimgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.booksmart:hover{
+        content: url(/Stargeek/img/booksmartgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.makehappy:hover{
+        content: url(/Stargeek/img/make\ happygif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.ghostworld:hover{
+        content: url(/Stargeek/img/ghost\ worldgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.eighth:hover{
+        content: url(/Stargeek/img/eighth\ gradegif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.bridgetjones:hover{
+        content: url(/Stargeek/img/brisget\ jonesgif.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.youthinrevolt:hover{
+        content: url(/Stargeek/img/youth\ in\ revolt.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.tlou:hover{
+        content: url(/Stargeek/img/tlou.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.dark:hover{
+        content: url(/Stargeek/img/dark.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.umbrella:hover{
+        content: url(/Stargeek/img/THE\ UMBRELLA\ ACADEMY.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.titans:hover{
+        content: url(/Stargeek/img/TITANS.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.obiwan:hover{
+        content: url(/Stargeek/img/OBI-WAN.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.forallman:hover{
+        content: url(/Stargeek/img/FOR\ ALL\ MANKIND.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.lostinspace:hover{
+        content: url(/Stargeek/img/LOST\ IN\ SPACE.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.MANDALORIAN:hover{
+        content: url(/Stargeek/img/MANDALORIAN.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.cxg:hover{
+        content: url(/Stargeek/img/cxg.webp);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.jatp:hover{
+        content: url(/Stargeek/img/julie\ and\ the\ phantoms.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.getdown:hover{
+        content: url(/Stargeek/img/the\ get\ down.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.scmigadoon:hover{
+        content: url(/Stargeek/img/scmigadoon.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.hannahmontana:hover{
+        content: url(/Stargeek/img/hannah\ montana.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.hsmtmts:hover{
+        content: url(/Stargeek/img/hsmtmts.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.glee:hover{
+        content: url(/Stargeek/img/glee.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.skins:hover{
+        content: url(/Stargeek/img/skins.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.alaska:hover{
+        content: url(/Stargeek/img/looking\ for\ alaska.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.euphoria:hover{
+        content: url(/Stargeek/img/euphoria.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.lovevictor:hover{
+        content: url(/Stargeek/img/love\,\ victor.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.youngroyals:hover{
+        content: url(/Stargeek/img/young\ royals.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.heartsopper:hover{
+        content: url(/Stargeek/img/heartstopper.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.dawsonscreeks:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.office:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.bojack:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.screamqueens:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.insatiable:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.boymeetsworld:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.succession:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.simpsons:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.FULLERHOUSE:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.wonderyears:hover{
+        content: url(/Stargeek/img/dawsons\ creek.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.closeyoureyes:hover{
+        content: url(/Stargeek/img/close\ your\ eyes.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.squidgame:hover{
+        content: url(/Stargeek/img/swuid\ game.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.dahmer:hover{
+        content: url(/Stargeek/img/dahmer.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.salem:hover{
+        content: url(/Stargeek/img/salem.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.remind:hover{
+        content: url(/Stargeek/img/remind.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
+.allofusaredead:hover{
+        content: url(/Stargeek/img/all\ of\ us\ are\ dead.gif);
+        height: 296px;
+        width: 517px;
+        border-radius: 9px;
+    }
 @font-face {
     font-family: "skirmisher.ttf";
     src: url(/Stargeek/skirmisher.ttf);
