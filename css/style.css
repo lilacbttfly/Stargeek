@@ -15,6 +15,44 @@ header {
 .logo1 {
     height: 100px;
 }
+.signup > a >  img {
+    height: 30px;
+    margin-left: 5px;
+}
+.signup > a {
+    border: 2px solid white;
+    border-radius: 33px;
+    background-color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    color: white;
+    text-decoration: none;
+    padding: 5px 35px;
+    font-family: "coolvetica.otf";
+    font-size: x-large;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.signin > a >  img {
+    height: 30px;
+    margin-left: 5px;
+}
+.signin > a {
+    border: 2px solid white;
+    border-radius: 33px;
+    background-color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    color: white;
+    text-decoration: none;
+    padding: 5px 35px;
+    font-family: "coolvetica.otf";
+    font-size: x-large;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .signin{
     margin: 0px 250px;
     display: flex;
@@ -49,6 +87,17 @@ header {
 .next {
     height: 54px;
     margin-top: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF77D1;
+    box-shadow: 0px 4px 16px #FF00A8;
+    border: 0.5px solid white;
+    padding: 15px;
+    border-radius: 33px;
+    width: 175px;
+    font-family: "coolvetica.otf";
+    align-items: center;
+    text-align: center;
 }
 .doidinha {
     height: 720px;
@@ -177,6 +226,9 @@ main > .doidinha {
     height: 544px;
     width: 1158px;
 }
+.mainindex > .filmes> p{
+    text-align: center;
+}
 .mainindex > .filmes {
     font-family: "skirmisher.ttf";
     color:#FF77D1;
@@ -200,6 +252,193 @@ main > .doidinha {
     text-shadow: 0px 4px 16px #FF00A8;
     font-family: "skirmisher.ttf";
     font-size: xx-large;
+    margin-bottom: 100px;
+}
+.sesisenai > a > .ftoperfil{
+    height: 75px;
+}
+.sesisenai > .logo{
+    height: 100px;
+}
+.sesisenai {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu {
+    display: flex;
+}
+.series {
+    text-align: center;
+    margin: 40px;
+}
+.series > p:hover{
+    text-decoration: underline;
+}
+.series > p {
+    color: white;
+    font-family: "skirmisher.ttf";
+    text-shadow: 0px 4px 16px #FFf;
+    font-size: xx-large;
+}
+.filmes {
+    text-align: center;
+    margin: 40px;
+}
+.filmes > p:hover{
+    text-decoration: underline;
+}
+.filmes > p {
+    color: white;
+    font-family: "skirmisher.ttf";
+    text-shadow: 0px 4px 16px #FFf;
+    font-size: xx-large;
+}
+.user{
+    font-size: xx-large;
+    color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    font-family: "skirmisher.ttf";
+}
+.xlass {
+    font-family: "coolvetica.otf";
+    color: #FFf;
+    text-shadow: 0px 4px 16px #FFf;
+}
+.ulala > .uiuiui {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ulala > img{
+    margin:70px;
+    margin-bottom:10px
+}
+.ulala{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+  margin-right: 125px;
+}
+.shawnmendes >p:hover {
+    text-decoration: underline;
+}
+.shawnmendes >p {
+    color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    font-family: "coolvetica.otf";
+    font-size: xx-large;
+}
+.sesisenai1 > a > img {
+    height: 100px;
+}
+.tudao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faves {
+    margin-left: 200px;
+}
+.faves > h1 {
+    font-size: xx-large;
+    font-family: "skirmisher.ttf";
+    color:#9D7BFF;
+    text-shadow: 0px 4px 16px #4200FF;
+}
+.mih {
+    display:flex;
+    justify-content: center;
+    margin-left: 25px;
+}
+.dividindo > h1{
+    color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    font-family: "skirmisher.ttf";
+    font-size: xx-large;
+}
+.anodire{
+    color: #9D7BFF;
+    text-shadow: 0px 4px 16px #4200FF;
+    font-family: "coolvetica.otf";
+}
+.resumo {
+    color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    font-family: "coolvetica.otf";
+    font-size: larger;
+}
+.gif {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 50px
+}
+.actors {
+    margin: 50px;
+    margin-bottom: 0px;
+}
+.actors > img {
+    margin-right: 50px;
+}
+.produtos > img {
+    margin-right: 75px;
+}
+.divatores {
+    margin-right: 80px;
+    color: #FFf;
+    text-shadow: 0px 4px 16px #fff;
+    text-align: center;
+}
+.actors{
+    display: flex;
+    margin-left: 100px;
+}
+.produtosnames > p {
+    margin-right: 80px;
+}
+.actorsnames {
+    display: flex;
+    margin-left: 100px;
+    color: #FFf;
+    text-shadow: 0px 4px 16px #FFf;
+    text-align: center;
+}
+.produtosnames {
+    display: flex;
+    margin-left: 100px;
+    color: #9D7BFF;
+    text-shadow: 0px 4px 16px #4200FF;
+    text-align: center;
+}
+.produtos {
+    margin-left: 100px;
+    display: flex;
+    margin-top: 20px;
+}
+.niam >img{
+    margin-top: -200px;
+}
+.niam{
+    justify-content: space-between;
+    margin-left: 100px;
+}
+.mihpdt {
+    color: #9D7BFF;
+    text-shadow: 0px 4px 16px #4200FF;
+    align-items: center;
+    text-align: center;
+    margin-right: 80px;
+}
+.mihpdt > img {
+    height: 145px;
 }
 @font-face {
     font-family: "skirmisher.ttf";
