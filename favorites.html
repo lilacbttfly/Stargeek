@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/cadastro2.js"></script>
+    <title>Stargeek</title>
+</head>
+<body>
+    <header class="sesisenai">
+        <img src="./img/logo.png" class="logo">
+        <a href="./profile.html"><img src="./img/Group 36.png" class="ftoperfil"></a>
+    </header>
+    <main class="novamain">
+        <div>
+    <h1 class="user">Favorites</h1>
+    <button class="open-modal-button" onclick="openModal()"><img src="img/Group 37.png" class="camera"></button>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div>
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h1 class="user1">What are your favorite movies?</h1><br>
+        </div>
+        <label class="anodire1">Name of the movie:</label>
+        <input type="text" placeholder="Type the name of the movie here..." id="nomemidia" class="caixas"><br>
+        <label class="anodire1">Poster:</label>
+        <input type="text" placeholder="Paste the link of the movie poster here..." id="fotomidia" class="caixas">
+        <label class="anodire1">Review:</label>
+        <textarea id="review" class="caixas 2" placeholder="Add a review..."></textarea>
+        <button onclick="cadastrar()" class="register">Register</button>
+      </div>
+    </div>
+</div>
+    </div>
+        <div class="mmaa1">
+            <p id="cadastro2" class="anodire2"></p>
+        </div>
+    </main>
+</body>
+</html>

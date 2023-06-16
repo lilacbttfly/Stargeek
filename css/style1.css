@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(/img/fundo.png);
+    background-size: 1550px 750px;
+    background-repeat: no-repeat;
+    background-color: #000720;
+}
+header {
+    padding: 20px 30px;
+}
+.ulala > .uiuiui {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ulala > img{
+    margin:70px;
+    margin-bottom:10px
+}
+.ulala{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+  margin-right: 125px;
+}
+.shawnmendes >a:hover {
+    text-decoration: underline;
+}
+.shawnmendes >a {
+    color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    font-family: "coolvetica.otf";
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+}
+.sesisenai1 > a > .ftoperfil{
+    height: 75px;
+}
+.sesisenai1 > a > .logo {
+    height: 100px;
+}
+.sesisenai1 {
+    align-items: center;
+}
+.user{
+    font-size: xx-large;
+    color: #FF77D1;
+    text-shadow: 0px 4px 16px #FF00A8;
+    font-family: "skirmisher.ttf";
+}
+.xlass {
+    font-family: "coolvetica.otf";
+    color: #FFf;
+    text-shadow: 0px 4px 16px #FFf;
+    text-decoration: none;
+}
+.tudao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.faves {
+    margin-left: 200px;
+}
+.faves > h1 {
+    font-size: xx-large;
+    font-family: "skirmisher.ttf";
+    color:#9D7BFF;
+    text-shadow: 0px 4px 16px #4200FF;
+}
+@font-face {
+    font-family: "skirmisher.ttf";
+    src: url(/skirmisher.ttf);
+}
+@font-face {
+    font-family: "coolvetica.otf";
+    src: url(/coolvetica.otf);
+}
